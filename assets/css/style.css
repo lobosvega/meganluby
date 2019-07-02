@@ -55,7 +55,7 @@ body {
 /*============= LANDING PAGE =============*/
 
 .home-inner {
-  background-image: url('/assets/videos/fast-typing.mp4'); /* 'img/landing.png' */
+  background-image: url('assets/videos/fast-typing.mp4'); /* 'img/landing.png' */
 }
 .caption {
   width: 100%;
@@ -157,7 +157,7 @@ h3.heading {
 /*===== FIXED BACKGROUND IMG DARK =====*/
 
 #fixed {
-  background-image: url('/assets/images/fixed/apple.png');
+  background-image: url('assets/images/fixed/apple.png');
   z-index: -1;
 }
 .dark {
