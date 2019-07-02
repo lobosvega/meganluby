@@ -21,6 +21,10 @@ body {
 
 /*============= NAVIGATION =============*/
 
+.navbar-nav .nav-item {
+  float: inherit;
+  display: inline-block;
+}
 .navbar {
   padding: .7rem 1rem;
   text-transform: uppercase;
@@ -33,19 +37,19 @@ body {
   height: 2rem;
 }
 .svg-inline--fa.fa-w-14 {
-  color: white;
+  color: black;
   font-size: 1.6rem;
 }
 .navbar-nav li {
   padding-right: .8rem;
 }
 .navbar-nav .nav-link {
-  color: white;
+  color: black;
   padding-top: .8rem;
 }
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link:hover {
-  color: #1ebba3;
+  color: #666b6a;
 }
 .navbar.solid {
   background: rgba(0, 0, 0, 0.7)!important;
@@ -55,7 +59,8 @@ body {
 /*============= LANDING PAGE =============*/
 
 .home-inner {
-  background-image: url('assets/videos/fast-typing.mp4'); /* 'img/landing.png' */
+  background-image: url('../videos/fast-typing.mp4'); /* 'img/landing.png' */
+  background-color: #505962
 }
 .caption {
   width: 100%;
@@ -70,7 +75,6 @@ body {
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: .3rem;
-  text-shadow: .1rem .1rem .8rem black;
   padding-bottom: 1rem;
 }
 .caption h3 {
@@ -78,7 +82,6 @@ body {
   font-size: 2.5rem;
   text-transform: uppercase;
   font-weight: 400;
-  text-shadow: .1rem .1rem .5rem black;
   padding-bottom: 2rem;
 }
 .btn-lg {
@@ -157,7 +160,7 @@ h3.heading {
 /*===== FIXED BACKGROUND IMG DARK =====*/
 
 #fixed {
-  background-image: url('assets/images/fixed/apple.png');
+  background-image: url('../images/fixed/apple.png');
   z-index: -1;
 }
 .dark {
@@ -197,7 +200,7 @@ img.example-image {
 .pricing-column {
   background-color: white;
   padding: 2rem;
-  border-top: .2rem solid #1ebba3;
+  border-top: .2rem solid lightgray;
   box-shadow: 0 0 .8rem rgba(0, 0, 0, 0.075);
   transition: transform .7s ease;
   overflow: hidden;
