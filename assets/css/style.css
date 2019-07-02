@@ -59,7 +59,7 @@ body {
 /*============= LANDING PAGE =============*/
 
 .home-inner {
-  background-image: url('../videos/fast-typing.mp4'); /* 'img/landing.png' */
+  background-image: url('../images/computers.png'); /* 'img/landing.png' */
   background-color: #505962
 }
 .caption {
@@ -245,7 +245,7 @@ img.example-image {
 /*============= TEAM SECTION FIXED BG IMG LIGHT =============*/
 
 #fixed-2 {
-  background-image: url('img/fixed/office.png');
+  background-image: url('../images/fixed/office.png');
   z-index: -1;
 }
 .light {
@@ -327,8 +327,7 @@ blockquote .svg-inline--fa {
 /*============= CONTACT SECTION =============*/
 
 footer {
-  background: url('img/footer/footer.png') no-repeat;
-  /*background-color: #40474e;*/
+  background-color: #40474e
   background-size: cover;
   color: white;
 }
